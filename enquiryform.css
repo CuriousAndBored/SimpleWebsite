@@ -1,0 +1,68 @@
+body {
+    background-image: url(graffitibg.jpg);
+}
+.head {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 30px;
+    margin-right: 1200px;
+}
+    .brand {
+        text-align: left;
+        background-color: palevioletred;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 20px;
+        padding: 10px;
+        display: inline-block;
+    }
+    .logo {
+        font-weight: bold;
+        color: 000084;
+        padding-top: 0%;
+        margin-top: 0%;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+    h1 {
+        font-weight:bolder;
+        font-size: 300% ;
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+    }
+
+.form {
+    padding: 30px;
+    margin: 30px;
+    border-style: ridge;
+    border-radius: 20px;
+    border-color: rgb(220, 9, 9);
+    max-width: 600px;
+    background-color: rgb(243, 219, 190);
+}
+.name {
+    text-align: left;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    color: rgb(148, 9, 106);
+    background-color: rgb(246, 193, 193);
+    opacity: 0.9;
+    border-radius: 5px;
+}
+select, input {
+    height: 20px;
+}
+button {
+    margin-left: 60px;
+    background-color: darkmagenta;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+button:hover {
+    border-style: solid;
+}

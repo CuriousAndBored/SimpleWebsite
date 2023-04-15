@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kind Kones Careers</title>
+    <link rel="stylesheet" type="text/css" href="careerspage.css">
+    <script>
+        var count=0;            // all arrays from the start = 0, start from 0 elements in array
+        var image = [];          // [] lines indicate array function with input for multiple memory locations
+            image[0] = "gallery1.png";
+            image[1] = "gallery2.png";
+            image[2] = "gallery3.png";
+            image[3] = "gallery4.png";
+            image[4] = "gallery5.png";
+            image[5] = "gallery6.png";
+            image[6] = "gallery7.png";
+
+            function changeImage(){
+                document.slider.src=image[count];
+
+                if(count < image.length-1){
+                    count++;
+                }
+                else{
+                    count = 0;
+                }
+                setTimeout("changeImage()" , 1500);
+            }
+    </script>
+    <script type="text/javascript">
+        function clicked() {
+            var ans;
+            prompt('Before submitting, tell us your favorite Ice Cream flavor!');
+                    alert('Submitted!');
+        }
+    </script>
+</head>
+<body onload="changeImage()">
+    <div class="head">
+        <img name="slider" height="400" width="400">
+        <div class="headtext">
+            <h1>Have A Passion For Our Craft?</h1>
+            <h3>Let us know more about you and where your interest lies, all applicants are welcome!</h3>
+            <h3>We only ask for the following:</h3>
+                    <ol>
+                        <li>Love Ice Cream And Cakes</li>
+                        <li>Like Seeing People Happy</li>
+                        <li>Be Kind To Others And Yourself</li>
+                    </ol>
+        </div>
+    </div>
+
+    <div class="form">
+        <form>
+            <div>
+                <div class="name">
+                    <div class="fullname">
+                        <h2>Full Name:</h2>
+                        <input type="text" size="40" maxlength="45" required> <em>*</em>
+                    </div>
+                    <div class="phone">
+                        <h2>Phone Number:</h2>
+                        <input type="number" size="20" maxlength="45" required> <em>*</em>
+                    </div>
+                </div>
+
+                <div class="email">
+                    <h2>Email:</h2>
+                    <input type="text" required size="80" required> <em>*</em>
+                </div>
+                
+                <div class="salutdate">
+                    <div class="salut">
+                        <label><h2>Salutation:</h2></label>
+                            <label><input type="checkbox" checked> Mr</label>
+                            <label><input type="checkbox" unchecked> Mrs</label>
+                            <label><input type="checkbox" unchecked> Ms</label>
+                            <label><input type="checkbox" unchecked> Mdm</label>
+                    </div>
+
+                    <div class="date">
+                        <label><h2>Preferred Interview date:</h2></label>
+                        <input type="date" class="datebox">
+                    </div>
+                </div>
+
+                <div>
+                    <h2>Position applying for:</h2>
+                    <select>Categories
+                        <option>Cafe Staff</option>
+                        <option>Marketing</option>
+                        <option>Sales</option>
+                        <option>Software Related</option>
+                    </select>
+                </div>
+
+                <div class="message">
+                    <div>
+                        <h2>Share a little about yourself:</h2>
+                        <textarea rows="5" cols="90">Write here...</textarea>
+                    </div>
+                </div>
+
+                <div class="attach">
+                    <label><h2>File Attachment:</h2></label>
+                    <input type="file" class="fileattach">
+                </div>
+
+                <button onclick="clicked()">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

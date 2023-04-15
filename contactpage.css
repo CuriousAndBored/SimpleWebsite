@@ -1,0 +1,88 @@
+body {
+    background-image: url(chocolatewallpaper.jpg);
+    background-size: cover;
+}
+.contact, table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 40px;
+    background-color: lightcyan;
+}
+.enquiry {
+    max-width: 300px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 30px;
+    margin-left: 30px;
+    background-color: rgb(235, 176, 208);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+h1 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+button {
+    margin-left: 60px;
+    background-color: darkmagenta;
+    color: whitesmoke;
+    padding: 15px;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 30px;
+}
+button:hover {
+    border-style: solid;
+    border-color: aliceblue;
+    text-decoration: underline;
+}
+table{
+    margin: 30px;
+}
+th {
+    height: 40px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 2px solid;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+td {
+    text-align: center;
+    padding: 10px;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.maps {
+    margin-left: 180px;
+    max-width: 830px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(90, 86, 86);
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+     -webkit-text-fill-color: rgb(106, 253, 123);
+}

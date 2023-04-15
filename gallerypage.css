@@ -1,0 +1,29 @@
+body {
+    background-image: url(marblewallpaper.jpg);
+    background-repeat: repeat;
+}
+h1 {
+    font-size: 350%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: black;
+     -webkit-text-fill-color: purple;
+}
+.gallerytable {
+    display: flex;
+    align-items:center; 
+    justify-content:center;
+    padding-bottom: 30px;
+}
+    td {
+        padding: 30px;
+    }
+    img:hover {
+        height: 300px;
+        width: 300px;
+        padding: 0px;
+    }

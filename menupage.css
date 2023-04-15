@@ -1,0 +1,70 @@
+body {
+    background-image: url(menubg.jpg);
+    background-repeat: repeat;
+}
+.menu {
+    width: 100%;
+    max-width: 800px;
+    background-color:rgb(235, 202, 190);
+    margin-left:auto;
+    margin-right:auto;
+    padding: 30px;
+    padding-top: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 250%;
+}
+h2, p {
+    font-size: 160%;
+}
+hr {
+    border-color: black;
+    background-color: black;
+    width: 85%;
+}
+.item p {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+.flavor {
+ text-align: left;
+ width: 60%;
+}
+.price {
+    text-align: right;
+    width: 10%;
+}
+.mainmenu {
+    display: flex;
+    align-items:center; 
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+    .leftmenu {
+        height: 510px;
+        text-align: center;
+        width: 45%;
+    }
+    .vertical {
+        border-left: 2px solid black;
+        height: 550px;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+        margin: 30px;
+    }
+    .rightmenu {
+        text-align: center;
+        width: 45%;
+    }
